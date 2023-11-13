@@ -1,4 +1,20 @@
+img{
+    align-self: center;
+}
+
+
 .main{
     width:70%;
-    height:auto;
+    border: solid;
+    flex-direction: row;
+}
+
+.left{
+    width: 40%;
+    background-color: red;
+}
+
+.right{
+    width: 60%;
+    background-color: blue;
 }
